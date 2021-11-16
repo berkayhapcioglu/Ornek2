@@ -1,0 +1,178 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ornek2</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="main.css" />
+    <!-- Tablet & Mobil -->
+    <link rel="stylesheet" media="(max-width:768px) " href="tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awsome -->
+    <script
+      src="https://kit.fontawesome.com/93922022fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="conatiner">
+        <nav id="navbar">
+          <h1 class="heading-small">Berkay Hapçıoğlu</h1>
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Eğitimler</a></li>
+            <li><a href="#courses">Kurslar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <img src="maxresdefault.jpg" alt="Berkay" />
+      <div class="name">
+        <h2 class="heading-big">Berkay Hapçıoğlu</h2>
+        <p>UI & UX Designer | Web Developer | Trader</p>
+      </div>
+      <a href="#courses">Kurslara git </a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium egitimler">Eğitimler</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sınıf İçi Eğitimler</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
+            repudiandae maxime beatae non porro aspernatur dolore laboriosam
+            illum adipisci fugit.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Online İçerikler</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
+            repudiandae maxime beatae non porro aspernatur dolore laboriosam
+            illum adipisci fugit.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Konferanslar</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
+            repudiandae maxime beatae non porro aspernatur dolore laboriosam
+            illum adipisci fugit.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="courses">
+      <h3 class="text-center heading-medium kurslar">Kurslar</h3>
+      <div class="container">
+        <div class="courses">
+          <!-- Course 1 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="python.jpg" alt="Python" />
+              <span>%99 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Python Geliştirici Kursu (2021)</div>
+              <div class="description">
+                Python öğrenmek hiç bu kadar kolay olmamıştır. Öykülerle anlatım
+                -10 yaş için uygundur. Yapay zeka yazılımı ve Crypto trading
+                alanında gelişmiş algoritmalarla karşınızda.
+              </div>
+              <div class="instructor">Berkay Hapçıoğlu</div>
+              <div class="rating">5 | (159700 Oylama)</div>
+            </div>
+          </div>
+          <!-- Course 2 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="java.png" alt="Python" />
+              <span>Berkay's Masterpiece</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Java Geliştirici Kursu (2021)</div>
+              <div class="description">
+                Java öğrenmek hiç bu kadar kolay olmamıştır. Öykülerle anlatım
+                -10 yaş için uygundur. Yapay zeka yazılımı ve Crypto trading
+                alanında gelişmiş algoritmalarla karşınızda.
+              </div>
+              <div class="instructor">Berkay Hapçıoğlu</div>
+              <div class="rating">5 | (481457 Oylama)</div>
+            </div>
+          </div>
+          <!-- Course 3 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="javascript.png" alt="Python" />
+              <span>Berkay's Special</span>
+            </div>
+            <div class="course-info">
+              <div class="title">
+                Komple Javascript Geliştirici Kursu (YENİ)
+              </div>
+              <div class="description">
+                Javascript öğrenmek hiç bu kadar kolay olmamıştır. Öykülerle
+                anlatım -10 yaş için uygundur. Apple'ın sitesini tasarlayan,
+                kodlayan insanlara ben anlattım.
+              </div>
+              <div class="instructor">Berkay Hapçıoğlu</div>
+              <div class="rating">5 | (5174 Oylama)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="İsim"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea name="message" id="message" rows="5" class="form-control" placeholder="Mesajınız"></textarea>
+          </div>
+          <button type="submit" class="btn btn-block"> Gönder </button>
+        </form>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
